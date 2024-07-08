@@ -14,8 +14,8 @@ variable "tables" {
       "T006", "T016T", "TPAR", "TVK0T", "TVK9T", "TVKOT", "TVST", "VBAK",
       "VBSK", "VBUK", "VEKP", "VEPVG", "VTTK"
     ]
-    "SIMATIC_IT" = ["LogEnergia", "LogEnergiaCircutor"],
-    # "CIRCUTOR_PA_PS" = ["devices", "engines", "std_wat_values"]
+    "SIMATIC_IT"     = ["LogEnergia", "LogEnergiaCircutor"],
+    "CIRCUTOR_PA_PS" = ["Devices", "Engines", "std_wat_values"]
   }
 }
 
@@ -23,8 +23,8 @@ variable "origins" {
   type        = map(string)
   description = "Origins and origin type."
   default = {
-    "SAP"        = "SAP"
-    "SIMATIC_IT" = "SQL_SERVER"
-    # "CIRCUTOR_PA_PS" = "SQL_SERVER"
+    "SAP"            = "SAP"
+    "SIMATIC_IT"     = "SQL_SERVER"
+    "CIRCUTOR_PA_PS" = "SQL_SERVER"
   }
 }

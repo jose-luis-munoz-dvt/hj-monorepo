@@ -25,7 +25,7 @@ resource "google_cloud_run_v2_job" "job" {
         resources {
           limits = {
             cpu    = "2000m"
-            memory = "4Gi"
+            memory = "${each.value.table}" == "LIPS" ? "8Gi" : "4Gi"
           }
         }
         env {
