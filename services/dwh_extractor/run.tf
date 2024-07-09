@@ -40,6 +40,14 @@ resource "google_cloud_run_v2_job" "job" {
           name  = "TARGET"
           value = each.value.table
         }
+        env {
+          name  = "ROWS_PER_BATCH"
+          value = "25000"
+        }
+        env {
+          name  = "CHUNK_SIZE"
+          value = "${each.value.table}" == "LIPS" ? "10" : "20"
+        }
       }
       vpc_access {
         network_interfaces {

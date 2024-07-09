@@ -14,7 +14,7 @@ variable "tables" {
       "T006", "T016T", "TPAR", "TVK0T", "TVK9T", "TVKOT", "TVST", "VBAK",
       "VBSK", "VBUK", "VEKP", "VEPVG", "VTTK"
     ]
-    "SIMATIC_IT"     = ["LogEnergia", "LogEnergiaCircutor"],
+    "SIMATIC_IT"     = ["LogEnergia", "LogEnergiaCircuitor"],
     "CIRCUTOR_PA_PS" = ["Devices", "Engines", "std_wat_values"]
   }
 }
