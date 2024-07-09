@@ -4,7 +4,7 @@ variable "project_id" {
   default     = "pj-data-des"
 }
 
-variable "tables" {
+/*variable "tables" {
   type        = map(list(string))
   description = "Origin and tables to extract."
   default = {
@@ -18,13 +18,4 @@ variable "tables" {
     "CIRCUTOR_PA_PS" = ["Devices", "Engines", "std_wat_values"]
   }
 }
-
-variable "origins" {
-  type        = map(string)
-  description = "Origins and origin type."
-  default = {
-    "SAP"            = "SAP"
-    "SIMATIC_IT"     = "SQL_SERVER"
-    "CIRCUTOR_PA_PS" = "SQL_SERVER"
-  }
-}
+*/

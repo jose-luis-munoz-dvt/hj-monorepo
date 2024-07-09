@@ -6,16 +6,13 @@ resource "google_storage_bucket" "regional_bucket" {
   force_destroy            = false
   public_access_prevention = "enforced"
 
-  #   lifecycle_rule {
-  #     enabled = true
-
-  #     condition {
-  #       age  = 7
-  #       matches_storage_class = ["STANDARD"]
-  #     }
-
-  #     action {
-  #       type = "Delete"
-  #     }
-  #   }
+  lifecycle_rule {
+    condition {
+      age            = 1
+      matches_prefix = ["backup/"]
+    }
+    action {
+      type = "Delete"
+    }
+  }
 }
