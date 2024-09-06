@@ -1,5 +1,6 @@
 locals {
   tables = flatten([for origin, tbls in var.tables : [for tbl in tbls : { origin = origin, table = tbl, extractor = var.origins[origin] }]])
+  high_memory_tables = ["LIPS", "VEKP"]
 }
 
 resource "google_project_iam_member" "vpc_access_perm" {
@@ -25,7 +26,7 @@ resource "google_cloud_run_v2_job" "job" {
         resources {
           limits = {
             cpu    = "2000m"
-            memory = "${each.value.table}" == "LIPS" ? "8Gi" : "4Gi"
+            memory = contains(local.high_memory_tables, each.value.table) ? "8Gi" : "4Gi"
           }
         }
         env {
@@ -46,7 +47,7 @@ resource "google_cloud_run_v2_job" "job" {
         }
         env {
           name  = "CHUNK_SIZE"
-          value = "${each.value.table}" == "LIPS" ? "10" : "20"
+          value = contains(local.high_memory_tables, each.value.table) ? "10" : "20"
         }
       }
       vpc_access {
