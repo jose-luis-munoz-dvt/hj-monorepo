@@ -1,5 +1,5 @@
 locals {
-  tables = flatten([for origin, tbls in var.tables : [for tbl in tbls : { origin = origin, table = tbl, extractor = var.origins[origin] }]])
+  tables             = flatten([for origin, tbls in var.tables : [for tbl in tbls : { origin = origin, table = tbl, extractor = var.origins[origin] }]])
   high_memory_tables = ["LIPS", "VEKP"]
 }
 
@@ -15,9 +15,10 @@ resource "google_project_iam_member" "vpc_access_perm" {
 }
 
 resource "google_cloud_run_v2_job" "job" {
-  for_each = { for tbl in local.tables : "${tbl.extractor}_${tbl.origin}_${tbl.table}" => tbl }
-  name     = replace(lower("crj-data-extractor-${each.value.origin}-${each.value.table}"), "_", "-")
-  location = data.google_client_config.current.region
+  for_each            = { for tbl in local.tables : "${tbl.extractor}_${tbl.origin}_${tbl.table}" => tbl }
+  name                = replace(lower("crj-data-extractor-${each.value.origin}-${each.value.table}"), "_", "-")
+  location            = data.google_client_config.current.region
+  deletion_protection = false
 
   template {
     template {

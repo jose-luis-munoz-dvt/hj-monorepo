@@ -11,6 +11,7 @@ resource "google_project_iam_member" "scheduler_perm" {
 
 resource "google_cloud_scheduler_job" "scheduler" {
   for_each  = google_cloud_run_v2_job.job
+  paused    = true
   name      = each.value.name
   schedule  = "0 3 * * *" # 3am todos los dias
   region    = "europe-west1"
