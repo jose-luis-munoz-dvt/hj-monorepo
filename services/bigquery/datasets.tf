@@ -41,3 +41,15 @@ resource "google_bigquery_dataset" "origen_sap" {
   location    = "EU"
   project     = var.project_id
 }
+resource "google_bigquery_dataset" "origen_neolectra" {
+  dataset_id  = "origen_neolectra"
+  description = "Tablas extraidas del sharepoint de neolectra"
+  location    = "EU"
+  project     = var.project_id
+}
+resource "google_bigquery_dataset" "origen_sharepoint" {
+  dataset_id  = "origen_sharepoint"
+  description = "Tablas extraidas de sharepoint"
+  location    = "EU"
+  project     = var.project_id
+}
