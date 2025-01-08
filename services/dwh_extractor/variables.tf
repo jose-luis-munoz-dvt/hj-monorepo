@@ -12,17 +12,23 @@ variable "tables" {
       "AUFM", "EKKO", "KNA1", "KNVV", "LFA1", "LFB1", "LFC1", "LFM1", "LFMC",
       "LIKP", "LIPS", "LIPSPO", "MAKT", "MARA", "T001W", "T005T", "T005U",
       "T006", "T016T", "TPAR", "TVK0T", "TVK9T", "TVKOT", "TVST", "VBAK",
-      "VBSK", "VBUK", "VEKP", "VEPVG", "VTTK",
+      "VBSK", "VBUK", "VEKP", "VEPVG", "VTTK", "MSEG", "MKPF", "PLMK",
+      "QAMR", "QAMV", "VBRK", "VBRP", "MCHB", "EKBE", "T134T", "T023T",
+      "VBAP", "EKPO", "INOB", "AUSP", "QALS", "MBEW", "T179T",
     ]
     "SIMATIC_IT" = ["LogEnergia", "LogEnergiaCircuitor"]
     "GREYCON_VAR" = [
       "VAR_CMI_PRODCTION_DAY", "VAR_CMI_STOPPAGE_DAY", "VAR_CMI_PRODUCTION_GRADE",
       "VAR_CMI_CUSTOMERS", "VAR_CMI_PRODUCT", "VAR_CMI_ITEM", "VAR_CMI_MACHINE",
     ]
-    "VOLUPACK_VAR"   = ["V_CMI_VAR_SUPPLIERS"]
-    "CIRCUTOR_PA_PS" = ["Devices", "Engines", "std_wat_values", "Variables"]
-    "CIRCUTOR_VAR"   = ["Devices", "Engines", "std_wat_values", "Variables"]
-    "VEOLIA"         = ["DATOS_VAPOR"]
+    "VOLUPACK_VAR"           = ["V_CMI_VAR_SUPPLIERS"]
+    "CIRCUTOR_PA_PS"         = ["Devices", "Engines", "std_wat_values", "Variables"]
+    "CIRCUTOR_VAR"           = ["Devices", "Engines", "std_wat_values", "Variables"]
+    "VEOLIA"                 = ["DATOS_VAPOR"]
+    "NEOELECTRA"             = ["CONFIG_FILE"]
+    "HINOJOSA_AEV_SEH"       = ["CONFIG_FILE"]
+    "HINOJOSA_AEV_LOGISTICA" = ["CONFIG_FILE"]
+    "HINOJOSA_RECLAMACIONES" = ["CONFIG_FILE"]
   }
 }
 
@@ -30,12 +36,16 @@ variable "origins" {
   type        = map(string)
   description = "Origins and origin type."
   default = {
-    "SAP"            = "SAP"
-    "SIMATIC_IT"     = "SQL_SERVER"
-    "CIRCUTOR_PA_PS" = "SQL_SERVER"
-    "CIRCUTOR_VAR"   = "SQL_SERVER"
-    "GREYCON_VAR"    = "SQL_SERVER"
-    "VOLUPACK_VAR"   = "ORACLE"
-    "VEOLIA"         = "GOOGLE_DRIVE"
+    "SAP"                    = "SAP"
+    "SIMATIC_IT"             = "SQL_SERVER"
+    "CIRCUTOR_PA_PS"         = "SQL_SERVER"
+    "CIRCUTOR_VAR"           = "SQL_SERVER"
+    "GREYCON_VAR"            = "SQL_SERVER"
+    "VOLUPACK_VAR"           = "ORACLE"
+    "VEOLIA"                 = "GOOGLE_DRIVE"
+    "NEOELECTRA"             = "SHAREPOINT_FILES"
+    "HINOJOSA_AEV_SEH"       = "SHAREPOINT_FILES"
+    "HINOJOSA_AEV_LOGISTICA" = "SHAREPOINT_FILES"
+    "HINOJOSA_RECLAMACIONES" = "SHAREPOINT_LISTS"
   }
 }

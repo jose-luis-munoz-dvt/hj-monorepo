@@ -1,6 +1,6 @@
 locals {
   tables             = flatten([for origin, tbls in var.tables : [for tbl in tbls : { origin = origin, table = tbl, extractor = var.origins[origin] }]])
-  high_memory_tables = ["LIPS", "VEKP"]
+  high_memory_tables = ["LIPS", "VEKP", "MSEG", "QAMV", "EKBE", "EKPO"]
 }
 
 resource "google_project_iam_member" "vpc_access_perm" {
