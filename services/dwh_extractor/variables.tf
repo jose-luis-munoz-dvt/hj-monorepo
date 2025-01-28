@@ -14,7 +14,8 @@ variable "tables" {
       "T006", "T016T", "TPAR", "TVK0T", "TVK9T", "TVKOT", "TVST", "VBAK",
       "VBSK", "VBUK", "VEKP", "VEPVG", "VTTK", "MSEG", "MKPF", "PLMK",
       "QAMR", "QAMV", "VBRK", "VBRP", "MCHB", "EKBE", "T134T", "T023T",
-      "VBAP", "EKPO", "INOB", "AUSP", "QALS", "MBEW", "T179T",
+      "VBAP", "EKPO", "INOB", "AUSP", "QALS", "MBEW", "T179T", "A305",
+      "A304", "A978", "A980", "A977", "A979", "KONV", "KONP",
     ]
     "SIMATIC_IT" = ["LogEnergia", "LogEnergiaCircuitor"]
     "GREYCON_VAR" = [
