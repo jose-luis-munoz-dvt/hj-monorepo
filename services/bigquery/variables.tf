@@ -19,3 +19,21 @@ variable "project_id" {
   }
 }
 */
+
+variable "table_origins" {
+  type        = map(list(string))
+  description = "Origin and tables from BigQuery."
+  default = {
+    "origen_sap" = [
+      "A980",
+    ]
+  }
+}
+
+variable "gcs_path" {
+  type        = map(string)
+  description = "GCS path for each origin"
+  default = {
+    "origen_sap" = "SAP/SAP"
+  }
+}

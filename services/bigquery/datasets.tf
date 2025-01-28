@@ -53,3 +53,9 @@ resource "google_bigquery_dataset" "origen_sharepoint" {
   location    = "EU"
   project     = var.project_id
 }
+resource "google_bigquery_dataset" "d_dimensiones" {
+  dataset_id  = "d_dimensiones"
+  description = "Tablas de dimensiones"
+  location    = "EU"
+  project     = var.project_id
+}
