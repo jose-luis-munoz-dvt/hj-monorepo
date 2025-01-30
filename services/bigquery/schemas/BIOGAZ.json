@@ -1,0 +1,57 @@
+[
+    {
+      "name": "Date_de_releve",
+      "mode": "NULLABLE",
+      "type": "DATETIME"
+    },
+    {
+      "name": "Index",
+      "mode": "NULLABLE",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Vapeur_T",
+      "mode": "NULLABLE",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Nb_de_Jours",
+      "mode": "NULLABLE",
+      "type": "INTEGER"
+    },
+    {
+      "name": "T_J",
+      "mode": "NULLABLE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "T_h",
+      "mode": "NULLABLE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "Nm3_Gaz",
+      "mode": "NULLABLE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "Tonnes_CO2",
+      "mode": "NULLABLE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "field1",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "Nm3_Biogaz_Tonne_vapeur",
+      "mode": "NULLABLE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "tCO2_Nm3",
+      "mode": "NULLABLE",
+      "type": "FLOAT"
+    }
+  ]

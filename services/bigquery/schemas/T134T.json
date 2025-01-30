@@ -1,0 +1,22 @@
+[
+    {
+      "name": "MANDT",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "SPRAS",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "MTART",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "MTBEZ",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    }
+  ]

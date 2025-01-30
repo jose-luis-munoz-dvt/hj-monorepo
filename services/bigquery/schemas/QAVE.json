@@ -1,0 +1,127 @@
+[
+    {
+      "name": "MANDANT",
+      "mode": "NULLABLE",
+      "type": "INTEGER"
+    },
+    {
+      "name": "PRUEFLOS",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "KZART",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "ZAEHLER",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "VKATART",
+      "mode": "NULLABLE",
+      "type": "INTEGER"
+    },
+    {
+      "name": "VWERKS",
+      "mode": "NULLABLE",
+      "type": "INTEGER"
+    },
+    {
+      "name": "VAUSWAHLMG",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "VCODEGRP",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "VCODE",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "VERSIONAM",
+      "mode": "NULLABLE",
+      "type": "INTEGER"
+    },
+    {
+      "name": "VERSIONCD",
+      "mode": "NULLABLE",
+      "type": "INTEGER"
+    },
+    {
+      "name": "VBEWERTUNG",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "DBEWERTUNG",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "VFOLGEAKTI",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "QKENNZAHL",
+      "mode": "NULLABLE",
+      "type": "INTEGER"
+    },
+    {
+      "name": "LTEXTKZ",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "VNAME",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "VDATUM",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "VEZEITERF",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "VAENAME",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "VAEDATUM",
+      "mode": "NULLABLE",
+      "type": "INTEGER"
+    },
+    {
+      "name": "VEZEITAEN",
+      "mode": "NULLABLE",
+      "type": "INTEGER"
+    },
+    {
+      "name": "STAFO",
+      "mode": "NULLABLE",
+      "type": "INTEGER"
+    },
+    {
+      "name": "TEILLOS",
+      "mode": "NULLABLE",
+      "type": "INTEGER"
+    },
+    {
+      "name": "VORGLFNR",
+      "mode": "NULLABLE",
+      "type": "INTEGER"
+    }
+  ]

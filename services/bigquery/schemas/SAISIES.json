@@ -1,0 +1,227 @@
+[
+    {
+      "name": "DATE",
+      "mode": "NULLABLE",
+      "type": "DATETIME"
+    },
+    {
+      "name": "Mois",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "VAPEUR_MWh",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "VAPEUR_T_gaz",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "EAU_ALIMENTAIRE_MWh",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "EAU_ALIMENTAIRE_T",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "CPT_GAZ_NM3",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "Biomasse_VAPEUR_MWh",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "vapeur_t_biomasse",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "EAU_ALIMENTAIRE_t_2",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "EAU_ALIMENTAIRE_accumule",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "EAU_ALIMENTAIRE_poussoir",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "TGBT_General",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "Chaudiere_Gaz",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "Chaudiere_Biomasse",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "Incident_Type",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "Evenement",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "Cause",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "Action",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "Heures",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "Gaz_Factures",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "Gaz_euro_mwh",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "Gaz_EUR_MWh",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "Biomasse_factures",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "Biomasse_euro_mwh",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "Biomasse_tonnes",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "Biomasse_EUR_MWh",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "Biomasse_tonnes_cendres",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "Vente_vapeur",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "BOIS_SOVEN_tonnes",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "BOIS_SOVEN_fin_de_mois",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "BOIS_SOVEN_pci",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "BOIS_SOVEN_h2o",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "field17",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "field18",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "field19",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "field20",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "field21",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "field22",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "field23",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "field24",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "field25",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "field26",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "field27",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "field28",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    }
+  ]

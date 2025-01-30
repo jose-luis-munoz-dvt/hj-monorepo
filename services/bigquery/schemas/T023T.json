@@ -1,0 +1,27 @@
+[
+    {
+      "name": "MANDT",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "SPRAS",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "MATKL",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "WGBEZ",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "WGBEZ60",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    }
+  ]

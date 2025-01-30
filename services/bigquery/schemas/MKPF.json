@@ -1,0 +1,167 @@
+[
+    {
+      "name": "MANDT",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "MBLNR",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "MJAHR",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "VGART",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "BLART",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "BLAUM",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "BLDAT",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "BUDAT",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "CPUDT",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "CPUTM",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "AEDAT",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "USNAM",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "TCODE",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "XBLNR",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "BKTXT",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "FRATH",
+      "mode": "NULLABLE",
+      "type": "NUMERIC"
+    },
+    {
+      "name": "FRBNR",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "WEVER",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "XABLN",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "AWSYS",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "BLA2D",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "TCODE2",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "BFWMS",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "EXNUM",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "SPE_BUDAT_UHR",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "SPE_BUDAT_ZONE",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "LE_VBELN",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "SPE_LOGSYS",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "SPE_MDNUM_EWM",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "GTS_CUSREF_NO",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "FLS_RSTO",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "MSR_ACTIVE",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "KNUMV",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    }
+  ]

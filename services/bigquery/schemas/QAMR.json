@@ -1,0 +1,427 @@
+[
+    {
+      "name": "MANDANT",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "PRUEFLOS",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "VORGLFNR",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "MERKNR",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "SATZSTATUS",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "ATTRIBUT",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "QERGDATH",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "ERSTELLER",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "ERSTELLDAT",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "AENDERER",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "AENDERDAT",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "DBEWERTG",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "MBEWERTG",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "PRUEFER",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "PRUEFDATUV",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "PRUEFDATUB",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "PRUEFZEITV",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "PRUEFZEITB",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "PRUEFBEMKT",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "PRLTEXTKZ",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "LTEXTSPR",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "ISTSTPANZ",
+      "mode": "NULLABLE",
+      "type": "INTEGER"
+    },
+    {
+      "name": "ISTSTPUMF",
+      "mode": "NULLABLE",
+      "type": "INTEGER"
+    },
+    {
+      "name": "ANZFEHLEH",
+      "mode": "NULLABLE",
+      "type": "INTEGER"
+    },
+    {
+      "name": "ANTEILNI",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "ANTEIL",
+      "mode": "NULLABLE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "ANZFEHLER",
+      "mode": "NULLABLE",
+      "type": "INTEGER"
+    },
+    {
+      "name": "ANZWERTO",
+      "mode": "NULLABLE",
+      "type": "INTEGER"
+    },
+    {
+      "name": "ANZWERTU",
+      "mode": "NULLABLE",
+      "type": "INTEGER"
+    },
+    {
+      "name": "ANZWERTG",
+      "mode": "NULLABLE",
+      "type": "INTEGER"
+    },
+    {
+      "name": "MAXWERTNI",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "MEDIANNI",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "MINWERTNI",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "MITTELWNI",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "VARIANZNI",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "MOMENT3NI",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "MOMENT4NI",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "ANTEILONI",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "ANTEILUNI",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "MAXWERT",
+      "mode": "NULLABLE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "MEDIANWERT",
+      "mode": "NULLABLE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "MINWERT",
+      "mode": "NULLABLE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "MITTELWERT",
+      "mode": "NULLABLE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "VARIANZ",
+      "mode": "NULLABLE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "MOMENT3",
+      "mode": "NULLABLE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "MOMENT4",
+      "mode": "NULLABLE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "ANTEILO",
+      "mode": "NULLABLE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "ANTEILU",
+      "mode": "NULLABLE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "GUELSTPANZ",
+      "mode": "NULLABLE",
+      "type": "INTEGER"
+    },
+    {
+      "name": "IVARIANZNI",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "IVARIANZ",
+      "mode": "NULLABLE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "KATALGART1",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "GRUPPE1",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "CODE1",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "VERSION1",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "KATALGART2",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "GRUPPE2",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "CODE2",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "VERSION2",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "KATALGART3",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "GRUPPE3",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "CODE3",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "VERSION3",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "KATALGART4",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "GRUPPE4",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "CODE4",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "VERSION4",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "KATALGART5",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "GRUPPE5",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "CODE5",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "VERSION5",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "FEHLKLAS",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "SENDEFLAG",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "MASCHINE",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "POSITION",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "AENDBELEG",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "KZBEWERTG",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "ZEITERSTL",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "ZEITAEND",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "KZVERDICHT",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "ORIGINAL_INPUT",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "DIFF_DEC_PLACES",
+      "mode": "NULLABLE",
+      "type": "INTEGER"
+    },
+    {
+      "name": "INPPROC_READY",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "SIGN_ID",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "SIGN_STATE",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    }
+  ]

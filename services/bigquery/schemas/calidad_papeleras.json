@@ -1,0 +1,117 @@
+[
+    {
+      "name": "int64_field_0",
+      "mode": "NULLABLE",
+      "type": "INTEGER"
+    },
+    {
+      "name": "_odata_etag",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "Title",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "LinkTitle",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "Abreviatura",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "LinkTitleNoMenu",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "ResponsableLookupId",
+      "mode": "NULLABLE",
+      "type": "INTEGER"
+    },
+    {
+      "name": "ContentType",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "id",
+      "mode": "NULLABLE",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Modified",
+      "mode": "NULLABLE",
+      "type": "TIMESTAMP"
+    },
+    {
+      "name": "Created",
+      "mode": "NULLABLE",
+      "type": "TIMESTAMP"
+    },
+    {
+      "name": "AuthorLookupId",
+      "mode": "NULLABLE",
+      "type": "INTEGER"
+    },
+    {
+      "name": "EditorLookupId",
+      "mode": "NULLABLE",
+      "type": "INTEGER"
+    },
+    {
+      "name": "_UIVersionString",
+      "mode": "NULLABLE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "Attachments",
+      "mode": "NULLABLE",
+      "type": "BOOLEAN"
+    },
+    {
+      "name": "Edit",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "ItemChildCount",
+      "mode": "NULLABLE",
+      "type": "INTEGER"
+    },
+    {
+      "name": "FolderChildCount",
+      "mode": "NULLABLE",
+      "type": "INTEGER"
+    },
+    {
+      "name": "_ComplianceFlags",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "_ComplianceTag",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "_ComplianceTagWrittenTime",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "_ComplianceTagUserId",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "AppEditorLookupId",
+      "mode": "NULLABLE",
+      "type": "INTEGER"
+    }
+  ]

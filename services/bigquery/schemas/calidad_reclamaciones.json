@@ -1,0 +1,237 @@
+[
+    {
+      "name": "int64_field_0",
+      "mode": "NULLABLE",
+      "type": "INTEGER"
+    },
+    {
+      "name": "_odata_etag",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "PlantaLookupId",
+      "mode": "NULLABLE",
+      "type": "INTEGER"
+    },
+    {
+      "name": "PapeleraLookupId",
+      "mode": "NULLABLE",
+      "type": "INTEGER"
+    },
+    {
+      "name": "TipoIncidenciaLookupId",
+      "mode": "NULLABLE",
+      "type": "INTEGER"
+    },
+    {
+      "name": "CodigoReclamacionInternoCartoner",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "FechaReclamacion",
+      "mode": "NULLABLE",
+      "type": "TIMESTAMP"
+    },
+    {
+      "name": "CodigoReclamacion",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "Lote",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "FechaRecepcion",
+      "mode": "NULLABLE",
+      "type": "TIMESTAMP"
+    },
+    {
+      "name": "CantidadAfectada",
+      "mode": "NULLABLE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "Defecto",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "TiempoParo",
+      "mode": "NULLABLE",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Motivo",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "AplicaCosteDevolucion",
+      "mode": "NULLABLE",
+      "type": "BOOLEAN"
+    },
+    {
+      "name": "CosteDevolucion",
+      "mode": "NULLABLE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "AplicarCosteReproceso",
+      "mode": "NULLABLE",
+      "type": "BOOLEAN"
+    },
+    {
+      "name": "Calidad",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "Gramaje",
+      "mode": "NULLABLE",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Ancho",
+      "mode": "NULLABLE",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Abono",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "MuestraFisica",
+      "mode": "NULLABLE",
+      "type": "BOOLEAN"
+    },
+    {
+      "name": "Estado",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "Contabiliza",
+      "mode": "NULLABLE",
+      "type": "BOOLEAN"
+    },
+    {
+      "name": "VisitaTecnica",
+      "mode": "NULLABLE",
+      "type": "BOOLEAN"
+    },
+    {
+      "name": "AplicaCosteReclamacion",
+      "mode": "NULLABLE",
+      "type": "BOOLEAN"
+    },
+    {
+      "name": "CosteReclamacion",
+      "mode": "NULLABLE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "NumeroPedidoDevolucion",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "ContentType",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "NotificarCalidadDepartamento",
+      "mode": "NULLABLE",
+      "type": "BOOLEAN"
+    },
+    {
+      "name": "NotificarCalidadServicio",
+      "mode": "NULLABLE",
+      "type": "BOOLEAN"
+    },
+    {
+      "name": "id",
+      "mode": "NULLABLE",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Modified",
+      "mode": "NULLABLE",
+      "type": "TIMESTAMP"
+    },
+    {
+      "name": "Created",
+      "mode": "NULLABLE",
+      "type": "TIMESTAMP"
+    },
+    {
+      "name": "AuthorLookupId",
+      "mode": "NULLABLE",
+      "type": "INTEGER"
+    },
+    {
+      "name": "EditorLookupId",
+      "mode": "NULLABLE",
+      "type": "INTEGER"
+    },
+    {
+      "name": "_UIVersionString",
+      "mode": "NULLABLE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "Attachments",
+      "mode": "NULLABLE",
+      "type": "BOOLEAN"
+    },
+    {
+      "name": "Edit",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "ItemChildCount",
+      "mode": "NULLABLE",
+      "type": "INTEGER"
+    },
+    {
+      "name": "FolderChildCount",
+      "mode": "NULLABLE",
+      "type": "INTEGER"
+    },
+    {
+      "name": "_ComplianceFlags",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "_ComplianceTag",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "_ComplianceTagWrittenTime",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "_ComplianceTagUserId",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "AppAuthorLookupId",
+      "mode": "NULLABLE",
+      "type": "INTEGER"
+    },
+    {
+      "name": "AppEditorLookupId",
+      "mode": "NULLABLE",
+      "type": "INTEGER"
+    }
+  ]

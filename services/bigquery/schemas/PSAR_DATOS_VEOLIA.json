@@ -1,0 +1,282 @@
+[
+    {
+      "name": "_1",
+      "mode": "NULLABLE",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Fecha_",
+      "mode": "NULLABLE",
+      "type": "DATE"
+    },
+    {
+      "name": "Contador_captacion__m3_",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "Consumo_diario",
+      "mode": "NULLABLE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "Horas",
+      "mode": "NULLABLE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "Horas_",
+      "mode": "NULLABLE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "Contador_Gas_bruto__m3_",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "Consumo_diario_bruto__m3__",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "Contador_corregido__Nm3_",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "Consumo_dia_correg___Nm3_dia__",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "Contador_Gas_bruto___m3_",
+      "mode": "NULLABLE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "Consumo_diario_bruto__m3_",
+      "mode": "NULLABLE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "Contador_corregido___Nm3_",
+      "mode": "NULLABLE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "Consumo_dia_correg___Nm3_dia_",
+      "mode": "NULLABLE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "caudal_vapor_t_",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "Consumo_Vapor_diario",
+      "mode": "NULLABLE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "caudal_agua_caldera__its_",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "Consumo_diario_agua_caldera__its_",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "Caudal_agua_desgasificador__its_",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "Consumo_de_biog__s__Nm3_",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "Consumo_de_biog__s__Nm3_dia_",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "Producci__n_vapor_caldera_biog__s__kg_",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "Producci__n_diaria_caldera_biog__s__kg_",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "Caudal_tot__agua_entrada_osmosis_m3_",
+      "mode": "NULLABLE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "Caudal_total_production_Osmosis",
+      "mode": "NULLABLE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "Rechazo_de___smosis__m3_",
+      "mode": "NULLABLE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "Envio_de_pastas_a_EDAR__m3_dia_",
+      "mode": "NULLABLE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "Sortida_Tanque_de_avenidas__m3_",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "Homogenizacion__m3_",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "TPA_a_IC1__m3_",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "TPA_a_IC2__m3_",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "Parshall__m3_",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "Contador_Biog__s_IC1",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "Producci__n_biog__s_IC1",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "Contador_Biog__s_IC2",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "Producci__n_biog__s_IC2",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "Destrucci__n_biog__s_antorcha__m3_",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "Destrucci__n_diario__m3_",
+      "mode": "NULLABLE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "Destrucci__n_biog__s_antorcha__Nm3_",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "Destrucci__n_diario__Nm3_",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "Producci__n_vapor_gas__Tn_d__a_",
+      "mode": "NULLABLE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "Consumo_vapor_f__brica__Tn_d__a_",
+      "mode": "NULLABLE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "Consumo_vapor_depuradora__Tn_d__a_",
+      "mode": "NULLABLE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "Consumo_vapor_cocina__Tn_d__a_",
+      "mode": "NULLABLE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "Contador_agua_a_m__quina_2_actual_m3_",
+      "mode": "NULLABLE",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Contador_agua_a_m__quina_2_dia_anterior_m3_",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "Contador_agua_potable_exterior",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "Parshall__m3__47",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "Total_horas_antorcha",
+      "mode": "NULLABLE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "Parcial_horas_antorcha",
+      "mode": "NULLABLE",
+      "type": "INTEGER"
+    },
+    {
+      "name": "Total_agua_rechazo_a_captaci__n",
+      "mode": "NULLABLE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "Parcial_agua_rechazo_a_captaci__n",
+      "mode": "NULLABLE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "Totalizador_entrega_vapor__Tn_",
+      "mode": "NULLABLE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "Producci__n_diaria_vapor__Tn_dia_",
+      "mode": "NULLABLE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "Totalizador_suministro_de_agua__m3_",
+      "mode": "NULLABLE",
+      "type": "FLOAT"
+    },
+    {
+      "name": "Consumo_diario_de_agua__m3_dia_",
+      "mode": "NULLABLE",
+      "type": "FLOAT"
+    }
+  ]

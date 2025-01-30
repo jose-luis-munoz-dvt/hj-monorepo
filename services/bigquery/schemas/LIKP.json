@@ -1,0 +1,927 @@
+[
+    {
+      "name": "MANDT",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "VBELN",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "ERNAM",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "ERZET",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "ERDAT",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "BZIRK",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "VSTEL",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "VKORG",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "LFART",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "AUTLF",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "KZAZU",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "WADAT",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "LDDAT",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "TDDAT",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "LFDAT",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "KODAT",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "ABLAD",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "INCO1",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "INCO2",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "EXPKZ",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "ROUTE",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "FAKSK",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "LIFSK",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "VBTYP",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "KNFAK",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "TPQUA",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "TPGRP",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "LPRIO",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "VSBED",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "KUNNR",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "KUNAG",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "KDGRP",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "STZKL",
+      "mode": "NULLABLE",
+      "type": "NUMERIC"
+    },
+    {
+      "name": "STZZU",
+      "mode": "NULLABLE",
+      "type": "NUMERIC"
+    },
+    {
+      "name": "BTGEW",
+      "mode": "NULLABLE",
+      "type": "NUMERIC"
+    },
+    {
+      "name": "NTGEW",
+      "mode": "NULLABLE",
+      "type": "NUMERIC"
+    },
+    {
+      "name": "GEWEI",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "VOLUM",
+      "mode": "NULLABLE",
+      "type": "NUMERIC"
+    },
+    {
+      "name": "VOLEH",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "ANZPK",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "BEROT",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "LFUHR",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "GRULG",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "LSTEL",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "TRAGR",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "FKARV",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "FKDAT",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "PERFK",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "ROUTA",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "STAFO",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "KALSM",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "KNUMV",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "WAERK",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "VKBUR",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "VBEAK",
+      "mode": "NULLABLE",
+      "type": "NUMERIC"
+    },
+    {
+      "name": "ZUKRL",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "VERUR",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "COMMN",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "STWAE",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "STCUR",
+      "mode": "NULLABLE",
+      "type": "NUMERIC"
+    },
+    {
+      "name": "EXNUM",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "AENAM",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "AEDAT",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "LGNUM",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "LISPL",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "VKOIV",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "VTWIV",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "SPAIV",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "FKAIV",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "PIOIV",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "FKDIV",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "KUNIV",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "KKBER",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "KNKLI",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "GRUPP",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "SBGRP",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "CTLPC",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "CMWAE",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "AMTBL",
+      "mode": "NULLABLE",
+      "type": "NUMERIC"
+    },
+    {
+      "name": "BOLNR",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "LIFNR",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "TRATY",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "TRAID",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "CMFRE",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "CMNGV",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "XABLN",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "BLDAT",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "WADAT_IST",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "TRSPG",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "TPSID",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "LIFEX",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "TERNR",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "KALSM_CH",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "KLIEF",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "KALSP",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "KNUMP",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "NETWR",
+      "mode": "NULLABLE",
+      "type": "NUMERIC"
+    },
+    {
+      "name": "AULWE",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "WERKS",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "LCNUM",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "ABSSC",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "KOUHR",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "TDUHR",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "LDUHR",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "WAUHR",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "LGTOR",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "LGBZO",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "AKWAE",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "AKKUR",
+      "mode": "NULLABLE",
+      "type": "NUMERIC"
+    },
+    {
+      "name": "AKPRZ",
+      "mode": "NULLABLE",
+      "type": "NUMERIC"
+    },
+    {
+      "name": "PROLI",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "XBLNR",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "HANDLE",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "TSEGFL",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "TSEGTP",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "TZONIS",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "TZONRC",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "CONT_DG",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "VERURSYS",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "KZWAB",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "VLSTK",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "TCODE",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "VSART",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "TRMTYP",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "SDABW",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "VBUND",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "XWOFF",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "DIRTA",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "PRVBE",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "FOLAR",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "PODAT",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "POTIM",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "VGANZ",
+      "mode": "NULLABLE",
+      "type": "INTEGER"
+    },
+    {
+      "name": "IMWRK",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "SPE_LOEKZ",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "SPE_LOC_SEQ",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "SPE_ACC_APP_STS",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "SPE_SHP_INF_STS",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "SPE_RET_CANC",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "SPE_WAUHR_IST",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "SPE_WAZONE_IST",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "SPE_REV_VLSTK",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "SPE_LE_SCENARIO",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "SPE_ORIG_SYS",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "SPE_CHNG_SYS",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "SPE_GEOROUTE",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "SPE_GEOROUTEIND",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "SPE_CARRIER_IND",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "SPE_GTS_REL",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "SPE_GTS_RT_CDE",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "SPE_REL_TMSTMP",
+      "mode": "NULLABLE",
+      "type": "NUMERIC"
+    },
+    {
+      "name": "SPE_UNIT_SYSTEM",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "SPE_INV_BFR_GI",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "SPE_QI_STATUS",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "SPE_RED_IND",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "SAKES",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "SPE_LIFEX_TYPE",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "SPE_TTYPE",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "SPE_PRO_NUMBER",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "LOC_GUID",
+      "mode": "NULLABLE",
+      "type": "BYTES"
+    },
+    {
+      "name": "SPE_BILLING_IND",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "PRINTER_PROFILE",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "MSR_ACTIVE",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "PRTNR",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "STGE_LOC_CHANGE",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "TM_CTRL_KEY",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "DLV_SPLIT_INITIA",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "DLV_VERSION",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "HANDOVERLOC",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "HANDOVERDATE",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "HANDOVERTIME",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "HANDOVERTZONE",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "INCOV",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "INCO2_L",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "INCO3_L",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "_BEV1_LULEINH",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "_BEV1_RPFAESS",
+      "mode": "NULLABLE",
+      "type": "NUMERIC"
+    },
+    {
+      "name": "_BEV1_RPKIST",
+      "mode": "NULLABLE",
+      "type": "NUMERIC"
+    },
+    {
+      "name": "_BEV1_RPCONT",
+      "mode": "NULLABLE",
+      "type": "NUMERIC"
+    },
+    {
+      "name": "_BEV1_RPSONST",
+      "mode": "NULLABLE",
+      "type": "NUMERIC"
+    },
+    {
+      "name": "_BEV1_RPFLGNR",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "BORGR_GRP",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "ZZFPICKINGREAL",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "ZZSEGCAL",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "ZZDESVIO",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    }
+  ]

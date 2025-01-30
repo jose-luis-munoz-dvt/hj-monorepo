@@ -1,0 +1,47 @@
+[
+    {
+      "name": "ID",
+      "mode": "NULLABLE",
+      "type": "INTEGER"
+    },
+    {
+      "name": "fk_device_id",
+      "mode": "NULLABLE",
+      "type": "INTEGER"
+    },
+    {
+      "name": "var_code",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "description",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "type",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "units",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "format",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "download",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    },
+    {
+      "name": "obsolete",
+      "mode": "NULLABLE",
+      "type": "STRING"
+    }
+  ]
