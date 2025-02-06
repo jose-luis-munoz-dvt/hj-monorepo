@@ -1,61 +1,15 @@
-resource "google_bigquery_dataset" "raw_data" {
-  dataset_id  = "raw_data"
-  description = "Raw data tables from data sources"
-  location    = "EU"
-  project     = var.project_id
-}
-resource "google_bigquery_dataset" "d_hechos" {
-  dataset_id  = "d_hechos"
-  description = "Tablas de hechos "
-  location    = "EU"
-  project     = var.project_id
-}
-resource "google_bigquery_dataset" "d_staging" {
-  dataset_id  = "d_staging"
-  description = "Tablas staging"
-  location    = "EU"
+resource "google_bigquery_dataset" "dataset" {
+  for_each = merge(local.sap_datasets, local.non_sap_datasets)
+  dataset_id  = each.value.dataset
+  description = each.value.description
+  location    = try(each.value.location, "EU")
   project     = var.project_id
 }
 
-resource "google_bigquery_dataset" "origen_simatic" {
-  dataset_id  = "origen_simatic"
-  description = "Tablas extraidas de Simatic SQL Server"
-  location    = "EU"
-  project     = var.project_id
-}
-resource "google_bigquery_dataset" "origen_circutor" {
-  dataset_id  = "origen_circutor"
-  description = "Tablas extraidas de Circutor SQL Server"
-  location    = "EU"
-  project     = var.project_id
-}
-resource "google_bigquery_dataset" "origen_drive" {
-  dataset_id  = "origen_drive"
-  description = "Tablas extraidas de Google Drive"
-  location    = "EU"
-  project     = var.project_id
-}
-resource "google_bigquery_dataset" "origen_sap" {
-  dataset_id  = "origen_sap"
-  description = "Tablas extraidas de SAP"
-  location    = "EU"
-  project     = var.project_id
-}
-resource "google_bigquery_dataset" "origen_neolectra" {
-  dataset_id  = "origen_neolectra"
-  description = "Tablas extraidas del sharepoint de neolectra"
-  location    = "EU"
-  project     = var.project_id
-}
-resource "google_bigquery_dataset" "origen_sharepoint" {
-  dataset_id  = "origen_sharepoint"
-  description = "Tablas extraidas de sharepoint"
-  location    = "EU"
-  project     = var.project_id
-}
-resource "google_bigquery_dataset" "d_dimensiones" {
-  dataset_id  = "d_dimensiones"
-  description = "Tablas de dimensiones"
-  location    = "EU"
-  project     = var.project_id
-}
+# resource "google_bigquery_dataset" "non_sap_datasets" {
+#   for_each = local.non_sap_datasets
+#   dataset_id  = "${each.value.dataset}_T"
+#   description = each.value.description
+#   location    = each.value.location
+#   project     = var.project_id
+# }
