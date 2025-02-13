@@ -1,6 +1,13 @@
 locals {
   tables             = flatten([for origin, tbls in var.tables : [for tbl in tbls : { origin = origin, table = tbl, extractor = var.origins[origin] }]])
   high_memory_tables = ["LIPS", "VEKP", "MSEG", "QAMV", "EKBE", "EKPO", "KONV"]
+  incremental_tables = ["MSEG"]
+  incremental_timestamp_source = {
+    MSEG = "${var.project_id}.d_staging.MSEG_CLEAN"
+  }
+  incremental_field = {
+    MSEG = "CONCAT(CPUDT_MKPF, CPUTM_MKPF)"
+  }
 }
 
 resource "google_project_iam_member" "vpc_access_perm" {
@@ -49,6 +56,18 @@ resource "google_cloud_run_v2_job" "job" {
         env {
           name  = "CHUNK_SIZE"
           value = contains(local.high_memory_tables, each.value.table) ? "10" : "20"
+        }
+        env {
+          name  = "LOAD_MODE"
+          value = contains(local.incremental_tables, each.value.table) ? "INCREMENTAL" : "FULL"
+        }
+        env {
+          name  = "INCREMENTAL_TIMESTAMP_SOURCE"
+          value = lookup(local.incremental_timestamp_source, each.value.table, null)
+        }
+        env {
+          name  = "INCREMENTAL_FIELD"
+          value = lookup(local.incremental_field, each.value.table, null)
         }
       }
       vpc_access {
