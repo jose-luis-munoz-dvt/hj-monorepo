@@ -48,6 +48,8 @@ main:
                         call: googleapis.run.v2.projects.locations.jobs.run
                         args:
                             name: $${cloud_run_job_name}
+                            connector_params:
+                                timeout: 10800
     - createCompilationResult:
         call: http.post
         args:
