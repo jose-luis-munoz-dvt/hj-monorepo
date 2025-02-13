@@ -49,7 +49,7 @@ main:
                         args:
                             name: $${cloud_run_job_name}
                             connector_params:
-                                timeout: 10800
+                                timeout: 21600
     - createCompilationResult:
         call: http.post
         args:
