@@ -1,6 +1,6 @@
 locals {
   tables             = flatten([for origin, tbls in var.tables : [for tbl in tbls : { origin = origin, table = tbl, extractor = var.origins[origin] }]])
-  high_memory_tables = ["LIPS", "VEKP", "MSEG", "QAMV", "EKBE", "EKPO", "KONV"]
+  high_memory_tables = ["LIPS", "VEKP", "MSEG", "QAMV", "EKBE", "EKPO", "KONV","VBRP"]
   incremental_tables = ["MSEG"]
   incremental_timestamp_source = {
     MSEG = "${var.project_id}.d_staging.MSEG_CLEAN"
@@ -33,8 +33,8 @@ resource "google_cloud_run_v2_job" "job" {
         image = "europe-southwest1-docker.pkg.dev/${data.google_client_config.current.project}/${google_artifact_registry_repository.ar_repo.name}/data_extractor:latest"
         resources {
           limits = {
-            cpu    = "2000m"
-            memory = contains(local.high_memory_tables, each.value.table) ? "8Gi" : "4Gi"
+            cpu    = contains(local.high_memory_tables, each.value.table) ? "4000m" : "2000m"
+            memory = contains(local.high_memory_tables, each.value.table) ? "16Gi" : "4Gi"
           }
         }
         env {
@@ -68,6 +68,10 @@ resource "google_cloud_run_v2_job" "job" {
         env {
           name  = "INCREMENTAL_FIELD"
           value = lookup(local.incremental_field, each.value.table, null)
+        }
+        env {
+          name  = "ENVIROMENT"
+          value = "des"
         }
       }
       vpc_access {
