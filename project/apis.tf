@@ -6,7 +6,11 @@ resource "google_project_service" "services" {
     "dataform.googleapis.com",
     "cloudfunctions.googleapis.com",
     "bigquery.googleapis.com",
-    "workflows.googleapis.com"
+    "workflows.googleapis.com",
+    "run.googleapis.com",
+    "cloudscheduler.googleapis.com",
+    "vpcaccess.googleapis.com",
+    "secretmanager.googleapis.com"
   ])
   service                    = each.key
   disable_dependent_services = true
