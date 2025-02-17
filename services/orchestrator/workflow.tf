@@ -58,8 +58,8 @@ main:
                 type: OAuth2
             body:
                 gitCommitish: $${sys.get_env("gitCommitish")}
-                # codeCompilationConfig:
-                #     defaultDatabase: $${sys.get_env("defaultDatabase")}
+                codeCompilationConfig:
+                    defaultDatabase: $${sys.get_env("GOOGLE_CLOUD_PROJECT_ID")}
                 #     schemaSuffix: $${sys.get_env("schemaSuffix")}
         result: compilationResult
     - createDataformWorkflowInvocation:
