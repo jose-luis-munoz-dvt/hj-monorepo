@@ -22,7 +22,7 @@ variable "tables" {
       "VAR_CMI_PRODCTION_DAY", "VAR_CMI_STOPPAGE_DAY", "VAR_CMI_PRODUCTION_GRADE",
       "VAR_CMI_CUSTOMERS", "VAR_CMI_PRODUCT", "VAR_CMI_ITEM", "VAR_CMI_MACHINE", "V_VAR_CMI_DELIVERY", "V_VAR_CMI_STK"
     ]
-    "VOLUPACK_VAR"           = ["V_CMI_VAR_SUPPLIERS", "V_CMI_VAR_MVT_ITEM", "V_CMI_VAR_ITEM_PURCHASE", "VAR_CMI_VAR_INVOICE", "V_CMI_VAR_ITEM", "V_CMI_VAR_CUSTOMER"]
+    "VOLUPACK_VAR"           = ["V_CMI_VAR_SUPPLIERS", "V_CMI_VAR_MVT_ITEM", "V_CMI_VAR_ITEM_PURCHASE", "V_CMI_VAR_INVOICE", "V_CMI_VAR_ITEM", "V_CMI_VAR_CUSTOMER"]
     "CIRCUTOR_PA_PS"         = ["Devices", "Engines", "std_wat_values", "Variables"]
     "CIRCUTOR_VAR"           = ["Devices", "Engines", "std_wat_values", "Variables"]
     "VEOLIA"                 = ["DATOS_VAPOR"]
