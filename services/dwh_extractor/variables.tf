@@ -24,7 +24,7 @@ variable "tables" {
     ]
     "VOLUPACK_VAR"           = [
       "V_CMI_VAR_SUPPLIERS", "V_CMI_VAR_MVT_ITEM", "V_CMI_VAR_ITEM_PURCHASE",
-      "V_CMI_VAR_ITEM", "V_CMI_VAR_INVOICE", "V_CMI_VAR_CUSTOMER"
+      "V_CMI_VAR_ITEM", "V_CMI_VAR_INVOICE", "V_CMI_VAR_CUSTOMER", "V_CMI_VAR_RECEIP_ITEM_PURCHASE"
     ]
     "CIRCUTOR_PA_PS"         = ["Devices", "Engines", "std_wat_values", "Variables"]
     "CIRCUTOR_VAR"           = ["Devices", "Engines", "std_wat_values", "Variables"]
