@@ -1,7 +1,7 @@
 variable "project_id" {
   type        = string
   description = "The project ID. Changing this forces a new project to be created."
-  default     = "pj-data-des"
+  default     = "pj-data-pro"
 }
 
 variable "tables" {
@@ -20,9 +20,12 @@ variable "tables" {
     "SIMATIC_IT" = ["LogEnergia", "LogEnergiaCircuitor"]
     "GREYCON_VAR" = [
       "VAR_CMI_PRODCTION_DAY", "VAR_CMI_STOPPAGE_DAY", "VAR_CMI_PRODUCTION_GRADE",
-      "VAR_CMI_CUSTOMERS", "VAR_CMI_PRODUCT", "VAR_CMI_ITEM", "VAR_CMI_MACHINE",
+      "VAR_CMI_CUSTOMERS", "VAR_CMI_PRODUCT", "VAR_CMI_ITEM", "VAR_CMI_MACHINE", "VAR_CMI_DELIVERY", "VAR_CMI_STOCK"
     ]
-    "VOLUPACK_VAR"           = ["V_CMI_VAR_SUPPLIERS"]
+    "VOLUPACK_VAR"           = [
+      "V_CMI_VAR_SUPPLIERS", "V_CMI_VAR_MVT_ITEM", "V_CMI_VAR_ITEM_PURCHASE",
+      "V_CMI_VAR_ITEM", "V_CMI_VAR_INVOICE", "V_CMI_VAR_CUSTOMER", "V_CMI_VAR_RECEIP_ITEM_PURCHASE"
+    ]
     "CIRCUTOR_PA_PS"         = ["Devices", "Engines", "std_wat_values", "Variables"]
     "CIRCUTOR_VAR"           = ["Devices", "Engines", "std_wat_values", "Variables"]
     "VEOLIA"                 = ["DATOS_VAPOR"]
