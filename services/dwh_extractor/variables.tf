@@ -16,6 +16,7 @@ variable "tables" {
       "QAMR", "QAMV", "VBRK", "VBRP", "MCHB", "EKBE", "T134T", "T023T",
       "VBAP", "EKPO", "INOB", "AUSP", "QALS", "MBEW", "T179T", "A305",
       "A304", "A978", "A980", "A977", "A979", "KONV", "KONP", "QAVE",
+      "AUFK", 
     ]
     "SIMATIC_IT" = ["LogEnergia", "LogEnergiaCircuitor"]
     "GREYCON_VAR" = [
