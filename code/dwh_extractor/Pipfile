@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+hdbcli = "*"
+pandas = "*"
+google-cloud-storage = "*"
+google-cloud-bigquery = "*"
+numpy = "*"
+pyarrow = "*"
+pyodbc = "*"
+oracledb = "*"
+google-cloud-secret-manager = "*"
+sqlserverport = "*"
+fsspec = "*"
+gcsfs = "*"
+openpyxl = "*"
+google-crc32c = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.13"

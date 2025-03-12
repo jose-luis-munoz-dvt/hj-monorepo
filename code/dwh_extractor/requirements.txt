@@ -1,0 +1,12 @@
+hdbcli
+pandas
+google-cloud-storage
+google-cloud-secret-manager
+google-cloud-bigquery
+pyarrow
+pyodbc
+oracledb
+sqlserverport
+fsspec
+gcsfs
+openpyxl
