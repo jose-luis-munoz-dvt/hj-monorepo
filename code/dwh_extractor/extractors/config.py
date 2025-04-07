@@ -24,7 +24,7 @@ def access_secret(secret_id, version_id="latest"):
 
 ################ SAP #################
 
-SAP_HOST    = "10.101.10.20"
+SAP_HOST    = "10.200.32.210"
 SAP_PORT    = 30044
 SAP_USER    = access_secret('DWH_SAP_USER')
 SAP_PWD     = access_secret('DWH_SAP_PWD')
