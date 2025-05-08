@@ -1,6 +1,6 @@
 locals {
   tables             = flatten([for origin, tbls in var.tables : [for tbl in tbls : { origin = origin, table = tbl, extractor = var.origins[origin] }]])
-  high_memory_tables = ["LIPS", "VEKP", "MSEG", "QAMV", "EKBE", "EKPO", "KONV","VBRP"]
+  high_memory_tables = ["LIPS", "VEKP", "MSEG", "QAMV", "EKBE", "EKPO", "KONV","VBRP", "EKKO", "LIKP", "VBAP"]
   incremental_tables = ["MSEG"]
   incremental_timestamp_source = {
     MSEG = "${var.project_id}.d_staging.MSEG_CLEAN"
