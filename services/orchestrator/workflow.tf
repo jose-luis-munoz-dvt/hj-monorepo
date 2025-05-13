@@ -43,13 +43,24 @@ main:
             for:
                 value: cloud_run_job_name
                 in: $${cloud_run_job_names_list}
+                #in: $${tmp_cloud_run_job_names_list}
                 steps:
                     - cloudRunJobRun:
-                        call: googleapis.run.v2.projects.locations.jobs.run
-                        args:
-                            name: $${cloud_run_job_name}
-                            connector_params:
-                                timeout: 21600
+                        try:
+                            call: googleapis.run.v2.projects.locations.jobs.run
+                            args:
+                                name: $${cloud_run_job_name}
+                                connector_params:
+                                    timeout: 21600
+                        except:
+                            as: e
+                            steps:
+                                - logError:
+                                    call: sys.log
+                                    args:
+                                        severity: "ERROR"
+                                        text: $${e}
+                                    next: continue
     - createCompilationResult:
         call: http.post
         args:
