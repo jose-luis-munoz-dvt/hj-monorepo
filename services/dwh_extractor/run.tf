@@ -1,12 +1,14 @@
 locals {
   tables             = flatten([for origin, tbls in var.tables : [for tbl in tbls : { origin = origin, table = tbl, extractor = var.origins[origin] }]])
-  high_memory_tables = ["LIPS", "VEKP", "MSEG", "QAMV", "EKBE", "EKPO", "KONV","VBRP", "EKKO", "LIKP", "VBAP"]
-  incremental_tables = ["MSEG"]
+  high_memory_tables = ["LIPS", "VEKP", "MSEG", "QAMV", "EKBE", "EKPO", "KONV","VBRP", "EKKO", "LIKP", "VBAP", "NSDM_V_MSEG", "PRCD_Elements"]
+  incremental_tables = ["MSEG", "NSDM_V_MSEG"]
   incremental_timestamp_source = {
-    MSEG = "${var.project_id}.d_staging.MSEG_CLEAN"
+    MSEG = "${var.project_id}.d_staging.MSEG_CLEAN",
+    NSDM_V_MSEG = "${var.project_id}.d_staging.MSEG_CLEAN"
   }
   incremental_field = {
-    MSEG = "CONCAT(CPUDT_MKPF, CPUTM_MKPF)"
+    MSEG = "CONCAT(CPUDT_MKPF, CPUTM_MKPF)",
+    NSDM_V_MSEG = "CONCAT(CPUDT_MKPF, CPUTM_MKPF)"
   }
 }
 
