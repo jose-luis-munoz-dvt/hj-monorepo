@@ -7,7 +7,7 @@ terraform {
 }
 
 provider "google" {
-  project = "pj-data-des"
+  project = var.project_id
   region  = "europe-southwest1"
   zone    = "europe-southwest1-a"
 }

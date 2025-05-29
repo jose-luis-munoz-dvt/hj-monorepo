@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
     bucket = "gcs-terraform-state-eu-pro"
-    prefix = "pj-data-des/project"
+    prefix = "pj-data-pro/project" #"pj-data-des/project"
   }
 }

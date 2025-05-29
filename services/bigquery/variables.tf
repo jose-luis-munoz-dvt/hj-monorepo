@@ -1,7 +1,6 @@
 variable "project_id" {
   type        = string
   description = "The project ID. Changing this forces a new project to be created."
-  default     = "pj-data-des"
 }
 
 variable "bq_sap" {

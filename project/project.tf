@@ -1,4 +1,4 @@
-resource "google_project" "pj_data_des" {
+resource "google_project" "pj_data" {
   name                = var.project_name
   project_id          = var.project_id
   folder_id           = var.folder_id

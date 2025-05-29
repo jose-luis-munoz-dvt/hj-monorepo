@@ -3,11 +3,11 @@ locals {
   high_memory_tables = ["LIPS", "VEKP", "MSEG", "QAMV", "EKBE", "EKPO", "KONV", "VBRP", "EKKO", "LIKP", "VBAP", "NSDM_V_MSEG", "PRCD_Elements"]
   incremental_tables = ["MSEG", "NSDM_V_MSEG"]
   incremental_timestamp_source = {
-    MSEG = "${var.project_id}.d_staging.MSEG_CLEAN",
+    MSEG        = "${var.project_id}.d_staging.MSEG_CLEAN",
     NSDM_V_MSEG = "${var.project_id}.d_staging.MSEG_CLEAN"
   }
   incremental_field = {
-    MSEG = "CONCAT(CPUDT_MKPF, CPUTM_MKPF)",
+    MSEG        = "CONCAT(CPUDT_MKPF, CPUTM_MKPF)",
     NSDM_V_MSEG = "CONCAT(CPUDT_MKPF, CPUTM_MKPF)"
   }
 }
@@ -73,7 +73,7 @@ resource "google_cloud_run_v2_job" "job" {
         }
         env {
           name  = "ENVIROMENT"
-          value = "des"
+          value = "pro" ## en desarrollo es "des"
         }
       }
       vpc_access {

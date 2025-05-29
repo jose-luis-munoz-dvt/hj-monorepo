@@ -15,5 +15,5 @@ resource "google_project_service" "services" {
   service                    = each.key
   disable_dependent_services = true
   disable_on_destroy         = true
-  project                    = google_project.pj_data_des.id
+  project                    = google_project.pj_data.id
 }

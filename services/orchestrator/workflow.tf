@@ -18,8 +18,6 @@ main:
         - location: $${sys.get_env("location")}
         - cloud_run_job_names_list: []
         - repository: $${sys.get_env("repository")}
-        - tmp_cloud_run_job_names_list: [
-        "projects/pj-data-des/locations/europe-southwest1/jobs/crj-data-extractor-sap-vbap"]
     - logInit:
         call: sys.log
         args:

@@ -1,7 +1,7 @@
 
 
 resource "google_cloud_scheduler_job" "scheduler" {
-  paused    = true
+  paused    = var.project_id == "pj-data-prod" ? false : true
   name      = "workflow_scheduler"
   schedule  = "0 2 * * *" # 2am todos los dias
   region    = "europe-west1"
