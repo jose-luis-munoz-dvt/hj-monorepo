@@ -23,3 +23,20 @@ variable "auto_create_network" {
   default     = false
   description = "Controls whether the 'default' network exists on the project. Defaults to false, where it is not created."
 }
+
+variable "gcp_api_services" {
+  type        = set(string)
+  description = "List of Google Cloud APIs to enable."
+}
+
+# variable "projects" {
+#   description = "Projects"
+#   type = optional(list(object({
+#   name                    = string
+#   org_id                  = string
+#   folder_id               = string
+#   billing_account         = string
+#   project_sa_name         = optional(string, "") 
+#   activate_apis           = optional(list(string),[])
+#   })),[])
+# }

@@ -19,7 +19,7 @@ resource "google_project_iam_member" "vpc_access_perm" {
     "serviceAccount:service-${data.google_project.project.number}@serverless-robot-prod.iam.gserviceaccount.com"
   ])
   project = data.google_compute_network.vpc.project
-  role    = "roles/compute.networkUser"
+  role    = var.run_role
   member  = each.key
 }
 

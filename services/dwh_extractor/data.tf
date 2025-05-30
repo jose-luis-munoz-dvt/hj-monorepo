@@ -2,12 +2,12 @@ data "google_project" "project" {}
 data "google_client_config" "current" {}
 
 data "google_compute_subnetwork" "subnet" {
-  project = "pj-hub-pro"
-  name    = "nwr-data-pro" # nwr-data-des
-  region  = "europe-southwest1"
+  project = var.project
+  name    = var.subnet_name # nwr-data-des
+  region  = var.region
 }
 
 data "google_compute_network" "vpc" {
-  project = "pj-hub-pro"
-  name    = "nw-data-pro-vpc" # nw-data-des-vpc
+  project = var.project
+  name    = var.vpc_name # nw-data-des-vpc
 }
